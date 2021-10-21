@@ -1,7 +1,7 @@
 <script>
   import { liveQuery } from "dexie";
   import { db } from "./db";
-  import FriendCount from "./FriendCount";
+  import FriendCount from "./FriendCount.svelte";
 
   // Query parameters:
   let namePattern = "";
